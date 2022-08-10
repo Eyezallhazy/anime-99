@@ -17,12 +17,20 @@ body {
 }
 
 header {
-    margin: 2rem auto 0.55rem;
+    background-color: #1d223a;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem 0;
+}
+
+.head_wrap {
+    margin: 0 auto;
     max-width: 85vw;
+    /* padding: 4rem auto; */
 }
 
 h1 {
-    font-size: 3rem;
+    color: #fff;
+    font-size: 2.5rem;
 }
 
 header span {
@@ -33,7 +41,7 @@ header span {
 
 .container {
     max-width: 85vw;
-    margin: 1rem auto 0;
+    margin: 5rem auto 0;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -63,7 +71,7 @@ form {
 }
 
 .right {
-    background-color: rgb(3, 21, 76);
+    background-color: #1d223a;
     padding: 3.5rem 3rem;
     text-decoration-color: white;
     width: 32rem;
@@ -136,18 +144,35 @@ label {
     margin-bottom: 2rem;
 }
 
+.password {
+    position: relative;
+}
+
+.password img {
+    position: absolute;
+    top: 2.2rem;
+    right: 1rem;
+}
+
+.password small {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.85rem;
+}
+
 .right form input {
     display: block;
     padding: 0.7rem;
     width: 100%;
     border-radius: 0.3rem;
     margin: 0.5rem 0;
-    background-color: inherit;
+    background-color: white;
     border: 1px solid white;
 }
 
 .right form input::placeholder {
-    opacity: 0.7;
+    color: #6c7084;
 }
 
 button {
@@ -181,6 +206,16 @@ a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+
+footer {
+    max-width: 85vw;
+    margin: 0 auto;
+}
+
+footer small {
+    text-align: left;
+    color: #484d65;
 }
 
 @media (max-width: 950px) {

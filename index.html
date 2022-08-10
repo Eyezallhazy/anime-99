@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
     <header>
-        <h1>Animate <span>99</span></h1>
+        <div class="head_wrap">
+            <h1>Animate <span>99</span></h1>
+        </div>
     </header>
     <main class="container">
         <div class="left">
@@ -31,19 +33,27 @@
                     <input type="email" name="email" id="email" placeholder="Enter email address" />
                 </div>
                 <div class="password">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Enter password" />
+                    <div class="input__password">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter password" />
+                    </div>
+                    <img src="./assets/eye-slash.svg" alt="eye-slash">
+                    <small>Forgot password?</small>
                 </div>
                 <div class="button">
                     <button class="btn btn__login">Log In</button>
                     <small>Don't have an account?
               <span>
 
-              <a href="./index.html">Register</a></small
+              <a href="./signup.html">Register</a></small
             ></span>
           </div>
         </form>
       </div>
     </main>
-  </body>
+    <footer>
+        <small>Copyright © 2022 Animate99 by Zuri. All rights reserved</small>
+                    </footer>
+</body>
+
 </html>
